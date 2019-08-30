@@ -31,7 +31,6 @@ margin-bottom: 5px;
 
 ${ItemContainer}:hover & {
   opacity: 0.8;
-
 }
 `;
 
