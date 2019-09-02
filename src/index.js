@@ -12,11 +12,11 @@ import { store, persistor } from './redux/store';
 
 ReactDOM.render(
     <Provider store={store}>
-        <browserRouter>
+        <BrowserRouter>
             <PersistGate persistor={persistor}>
                 <App />
             </PersistGate>
-        </browserRouter>
+        </BrowserRouter>
     </Provider>,
     document.getElementById('root'));
 
